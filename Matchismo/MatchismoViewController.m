@@ -23,11 +23,6 @@
 
 @implementation MatchismoViewController
 
-- (void)viewDidLoad {
-    [self deal];
-}
-
-
 - (void) setCardButtons:(NSArray *)cardButtons {
     _cardButtons = cardButtons;
     [self updateUI];
@@ -58,10 +53,17 @@
     _flipCount = flipCount;
     self.flipLabel.text = [NSString stringWithFormat:@"Flip Count: %d", self.flipCount];
 }
-- (IBAction)deal {
-    self.game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count]
-                                                    usingDeck:[[PlayingCardDeck alloc] init]
+
+- (CardMatchingGame *)game
+{
+    if (!_game) _game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count]
+                                                  usingDeck:[[PlayingCardDeck alloc] init]
                  ];
+    return _game;
+}
+- (IBAction)deal {
+    self.game = nil;
+    self.flipCount = 0;
     self.matchMode.enabled = YES;
     [self updateUI];
 }
