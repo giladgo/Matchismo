@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Matchismo View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="MatchismoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zZE-8D-l0e">
+                                <rect key="frame" x="20" y="20" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="SrS-bC-JB8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="F8j-ll-1JB">
+                                <rect key="frame" x="89" y="20" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="ddC-cv-3FL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Flip Count: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zGS-Ym-Exy">
+                                <rect key="frame" x="20" y="439" width="108" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GvR-ui-EAK">
+                                <rect key="frame" x="158" y="20" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="WIb-zu-df2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8rK-nN-uav">
+                                <rect key="frame" x="227" y="20" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="lxO-xB-ZTG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="E6V-Y0-fpd">
+                                <rect key="frame" x="20" y="93" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="fcy-oC-LDz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SJL-eE-8xP">
+                                <rect key="frame" x="89" y="93" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="98d-wR-Bkc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BaH-O5-HoN">
+                                <rect key="frame" x="158" y="93" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="J0Z-zx-kpO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RfO-pf-DF3">
+                                <rect key="frame" x="227" y="93" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="VZJ-wc-GNQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mHd-on-E9d">
+                                <rect key="frame" x="20" y="166" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="VUk-2z-lRZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DIX-wp-whd">
+                                <rect key="frame" x="89" y="166" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="dpg-tM-EtI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4OV-4i-m3g">
+                                <rect key="frame" x="158" y="166" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="c1Q-Ro-Sdp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vNS-1Y-3WC">
+                                <rect key="frame" x="227" y="166" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="vNJ-Y6-CEF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hqy-qr-XA7">
+                                <rect key="frame" x="20" y="239" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="bqM-H5-w7T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GGj-KD-CyT">
+                                <rect key="frame" x="89" y="239" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="cCI-5p-WQp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="y87-DJ-I2n">
+                                <rect key="frame" x="158" y="239" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="nUv-dv-fjw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wKr-oC-tL9">
+                                <rect key="frame" x="227" y="239" width="61" height="65"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" backgroundImage="card_bg.png"/>
+                                <state key="selected" title="A♣" backgroundImage="card_bg_sel.png"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="2" eventType="touchUpInside" id="3Em-9W-iFJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p4P-IB-ros">
+                                <rect key="frame" x="181" y="420" width="119" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vud-zw-LLl">
+                                <rect key="frame" x="20" y="388" width="268" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="beE-H7-Mes">
+                                <rect key="frame" x="25" y="328" width="99" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Deal"/>
+                                <connections>
+                                    <action selector="deal" destination="2" eventType="touchUpInside" id="78N-lB-ttC"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="rJV-Kk-KxA">
+                                <rect key="frame" x="146" y="329" width="142" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <segments>
+                                    <segment title="2-card"/>
+                                    <segment title="3-card"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeMatchMode:" destination="2" eventType="valueChanged" id="e3l-4X-ZBS"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="flipLabel" destination="zGS-Ym-Exy" id="fGQ-wl-rXn"/>
+                        <outlet property="matchMode" destination="rJV-Kk-KxA" id="16P-9Q-cYb"/>
+                        <outlet property="scoreLabel" destination="p4P-IB-ros" id="6yu-Y4-yWv"/>
+                        <outlet property="statusLabel" destination="Vud-zw-LLl" id="k6s-R8-JZd"/>
+                        <outletCollection property="cardButtons" destination="zZE-8D-l0e" id="mrl-o4-KWR"/>
+                        <outletCollection property="cardButtons" destination="zZE-8D-l0e" id="52Q-SV-OFb"/>
+                        <outletCollection property="cardButtons" destination="F8j-ll-1JB" id="jMR-4m-Qbv"/>
+                        <outletCollection property="cardButtons" destination="GvR-ui-EAK" id="KT3-5C-Am4"/>
+                        <outletCollection property="cardButtons" destination="8rK-nN-uav" id="XCQ-y1-y11"/>
+                        <outletCollection property="cardButtons" destination="E6V-Y0-fpd" id="gBp-di-F2x"/>
+                        <outletCollection property="cardButtons" destination="SJL-eE-8xP" id="Xeu-hA-21E"/>
+                        <outletCollection property="cardButtons" destination="BaH-O5-HoN" id="hdI-Ug-2p7"/>
+                        <outletCollection property="cardButtons" destination="RfO-pf-DF3" id="8jA-Um-mkH"/>
+                        <outletCollection property="cardButtons" destination="mHd-on-E9d" id="Val-1m-fiC"/>
+                        <outletCollection property="cardButtons" destination="DIX-wp-whd" id="VUT-Y6-hld"/>
+                        <outletCollection property="cardButtons" destination="4OV-4i-m3g" id="ybb-19-lQJ"/>
+                        <outletCollection property="cardButtons" destination="vNS-1Y-3WC" id="zk8-J8-Liu"/>
+                        <outletCollection property="cardButtons" destination="Hqy-qr-XA7" id="vb3-2D-d2N"/>
+                        <outletCollection property="cardButtons" destination="GGj-KD-CyT" id="yA0-uI-uzV"/>
+                        <outletCollection property="cardButtons" destination="y87-DJ-I2n" id="3Vv-me-jzf"/>
+                        <outletCollection property="cardButtons" destination="wKr-oC-tL9" id="67d-A4-dkN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+        <image name="card_bg_sel.png" width="61" height="65"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
